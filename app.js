@@ -1,7 +1,7 @@
 const express = require('express');
 //const session = require('express-session');
 const path = require('path');
-//const bodyParser = require('body-parser');
+const bodyParser = require('body-parser');
 const routes = require('./routes/index');
 
 const app = express();
@@ -10,6 +10,9 @@ const app = express();
 //i think it is just directing something so the file where we are keepi
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use('/', routes);
 
