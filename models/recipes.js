@@ -219,3 +219,5 @@ const recipes = [
       'https://s-media-cache-ak0.pinimg.com/originals/a4/ac/d7/a4acd7e76fee66f6b8d19060b1906c13.jpg',
   },
 ];
+
+module.exports = recipes;

@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./app.js",
-    "watch": "nodemon ./app.js --ignore public/"
+    "watch": "nodemon ./app.js sass/styles.scss"
   },
   "repository": {
     "type": "git",
