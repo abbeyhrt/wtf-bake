@@ -1,3 +1,5 @@
+$text-color: #424242;
+
 body {
   width: 100vw;
   height: 100vh;
@@ -8,17 +10,42 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Arimo', sans-serif;
+  color: $text-color;
 }
 
-h3 {
-  color: red;
+.frontHeader {
+  color: #e62325;
 }
+
+// h2 {
+//   width: 64%;
+// }
+// p {
+//   width: 72%;
+// }
 
 a {
-  padding: 20px;
+  margin: 20px;
+  padding: 10px;
+  color: #fcfcfc;
+  text-decoration: none;
+  // // border: 0px solid #e62325;
+  box-shadow: 1px 1px 1px $text-color;
+  border-radius: 3px;
+  background-color: #e62325;
+}
+span {
+  color: #e62325;
 }
 
 img {
   max-width: 600px;
-  max-height: 700px;
+  max-height: 500px;
+}
+
+@media (max-width: 400px) {
+  img {
+    max-width: 300px;
+    max-height: 300px;
+  }
 }

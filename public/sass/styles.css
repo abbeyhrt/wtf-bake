@@ -7,16 +7,31 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'Arimo', sans-serif; }
+  font-family: 'Arimo', sans-serif;
+  color: #424242; }
 
-h3 {
-  color: red; }
+.frontHeader {
+  color: #e62325; }
 
 a {
-  padding: 20px; }
+  margin: 20px;
+  padding: 10px;
+  color: #fcfcfc;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px #424242;
+  border-radius: 3px;
+  background-color: #e62325; }
+
+span {
+  color: #e62325; }
 
 img {
   max-width: 600px;
-  max-height: 700px; }
+  max-height: 500px; }
+
+@media (max-width: 400px) {
+  img {
+    max-width: 300px;
+    max-height: 300px; } }
 
 /*# sourceMappingURL=styles.css.map */
