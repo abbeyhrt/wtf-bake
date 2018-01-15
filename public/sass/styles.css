@@ -1,32 +1,66 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: rgba(85, 78, 43, 0.25);
+  overflow: hidden; }
+
 body {
   width: 100vw;
   height: 100vh;
   margin: 0;
   padding: 0;
+  font-family: 'Old Standard TT', serif;
+  background-image: url(https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?auto=format&fit=crop&w=2850&q=80);
+  background-size: cover;
+  color: #fcfdff; }
+
+.title {
+  margin-left: 19.92px;
+  font-size: 1.777em; }
+
+.content {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-family: 'Arimo', sans-serif;
-  color: #424242; }
+  align-items: center; }
 
-.frontHeader {
-  color: #e62325; }
+.tagline {
+  font-size: 3.157em; }
+
+.description {
+  width: 64%;
+  font-size: 1em; }
+
+.footer {
+  font-size: 0.75em;
+  margin-left: 19.92px; }
+
+.recipe-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between; }
+
+.recipe {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  color: #010101;
+  background-color: #fefbf0; }
 
 a {
   margin: 20px;
   padding: 10px;
-  color: #fcfcfc;
+  color: #010101;
   text-decoration: none;
-  box-shadow: 1px 1px 1px #424242;
-  border-radius: 3px;
-  background-color: #e62325; }
+  border: 0.7px solid #010101; }
 
-span {
-  color: #e62325; }
-
-img {
-  max-width: 600px;
+.recipe-image {
+  max-width: 500px;
   max-height: 500px; }
 
 @media (max-width: 400px) {

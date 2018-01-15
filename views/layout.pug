@@ -1,19 +1,23 @@
-//- remember to add the google font to the page
+
 doctype html
 html
   head
     title= "What the F*** Should I Bake?"
     link(rel='stylesheet', href='/sass/styles.css')
-    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Arimo")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Lora|Old+Standard+TT")
 
   body
-    block header
-      .recipeHeader
-        h1 What Should I Bake?
+    div.container
+      block header
+        h2.title What should I bake?
 
 
-    block content
-      h2.frontHeader Hit Enter for baking inspiration and ideas
-      p Randomly sorts through a list of recipes to give you your next baking project. We hope the results are delicious!
+      block content
+        .content
+          h1.tagline Inspire. Bake. Eat.
+          p.description Randomly sorts through a list of recipes to give you your next baking project, hit Enter or Space to get started. We hope the results are delicious!
 
-    script(src='/javascript/client.js')
+      block footer
+        p.footer Made with love by Abbey Hart
+
+  script(src='/javascript/client.js')

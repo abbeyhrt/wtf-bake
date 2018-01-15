@@ -10,7 +10,7 @@ const recipes = [
     name: 'Chocolate Babka',
     id: 2,
     link:
-      'https://www.bingingwithbabish.com/recipe/2017/5/09/babka-inspired-by-seinfeld',
+      'https://www.bingingwithbabish.com/recipes/2017/5/09/babka-inspired-by-seinfeld',
     image:
       'http://cdn-image.foodandwine.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/recipe0116-xl-chocolate-babka.jpg?itok=hR9XTNrZ',
   },

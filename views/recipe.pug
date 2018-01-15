@@ -1,7 +1,21 @@
-extends layout
-
 include mixins/_recipeCard
 
 
-block content
-  +recipeCard(recipe)
+doctype html
+html
+  head
+    title= "What the F*** Should I Bake?"
+    link(rel='stylesheet', href='/sass/styles.css')
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Lora|Old+Standard+TT")
+
+body
+  .recipe-page
+    block header
+      .left
+        h2.title What should I bake?
+
+    block content
+      .recipe
+        +recipeCard(recipe)
+
+  script(src='/javascript/client.js')
