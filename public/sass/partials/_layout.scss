@@ -1,4 +1,4 @@
-$text-color: #fcfdff;
+$text-color: #fefbf0;
 
 $font-h1: 3.157em;
 $font-text: 1em;
@@ -62,6 +62,15 @@ body {
 // p {
 //   width: 72%;
 // }
+
+.main-link {
+  text-decoration: none;
+  color: $text-color;
+}
+
+.main-link:hover {
+  color: #010101;
+}
 
 .footer {
   font-size: $font-footer;

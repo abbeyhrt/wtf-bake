@@ -21,14 +21,18 @@ $font-footer: 0.75em;
   background-color: $background-color;
 }
 
-a {
+.recipe-link {
   margin: 20px;
   padding: 10px;
   color: #010101;
   text-decoration: none;
-  border: 0.7px solid #010101; // // border: 0px solid #e62325;
-  //box-shadow: 1px 1px 1px $text-color;
-  // border-radius: 3px;
+  border: 0.7px solid #010101;
+}
+
+.recipe-link:hover {
+  color: $background-color;
+  background-color: #010101;
+  border-color: $background-color;
 }
 
 .recipe-image {
